@@ -17,6 +17,7 @@ library(tidyverse)
 `head()`, `tail()`, and `dim()`
 
 Hi Brooke!
+Hi Stephen!
 
 ```{r}
 #| warning: false
