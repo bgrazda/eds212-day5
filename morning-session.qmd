@@ -43,8 +43,8 @@ ggplot(starwars, aes(x = height, y = mass, color = mass)) +
 
 ```{r}
 
-#| fig-cap: "caption text"
-#| fig-alt: "This is some alt text"
+#/ fig-cap: "caption text"
+# | fig-alt: "This is some alt text"
 ggplot(starwars, aes(x = height)) +
   geom_histogram(fill = "purple", color = "orange") +
   labs(x = "Height (cm)",
